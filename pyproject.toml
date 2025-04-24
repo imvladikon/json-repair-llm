@@ -36,6 +36,10 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
+    "setuptools",
+    "wheel",
+    "build",
+    "twine",
     "pytest",
     "isort",
     "mypy",
