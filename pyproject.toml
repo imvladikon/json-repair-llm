@@ -22,6 +22,7 @@ classifiers = [
     "Intended Audience :: Developers",
 ]
 dependencies = [
+    "numpy>=1.26.4,<2",
     "outlines[transformers]",
     "transformers",
     "torch",
